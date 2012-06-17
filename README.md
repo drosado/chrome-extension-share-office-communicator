@@ -1,4 +1,4 @@
-chrome-extensions
-=================
+chrome-extensions-share-office-communicator 
+===========================================
 
-My own google chrome extensions...
+Extension that allows use to share a URL via Office Communicator - or alternatively by e-mail.
