@@ -1,0 +1,13 @@
+{
+  "name": "URL Share",
+  "version": "1.0",
+  "description": "Chrome extension that helps you share a URL via IM or e-mail.",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_title": "Share via IM or e-mail",
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}

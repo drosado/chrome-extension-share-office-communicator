@@ -1,0 +1,33 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+      body {
+        min-width:357px;
+        overflow-x:hidden;
+      }
+
+      img {
+        margin:5px;
+        border:2px solid black;
+        vertical-align:middle;
+        width:75px;
+        height:75px;
+      }
+    </style>
+    <form>
+      <input type="button" id="email" value="Send URL via e-mail" onclick="sendViaEmail()"/><br>
+      <input type="button" id="email" value="Send URL via IM" onclick="sendViaIM()"/><br>
+      <!-- Necessary for copy paste javascript function - needs to be hidden somewhere !!-->
+      <textarea id="url" cols="1" rows="1"></textarea>
+      <!-- None of this seems to work... -->
+      <!-- <textarea id="url" cols="1" rows="1" style="visibility:hidden;"></textarea> -->
+      <!-- <textarea id="url" cols="1" rows="1" style="display:none;"></textarea> -->
+    </form>
+    <!-- JavaScript and HTML must be in separate files for security. -->
+    <script src="popup.js"></script>
+  </head>
+  <body>
+  </body>
+</html>
