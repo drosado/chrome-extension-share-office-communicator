@@ -11,8 +11,6 @@ function sendViaIM() {
         // tab object has all the information
         copyToClipboard(tab.title+'\n'+tab.url)
         window.open('sip:Some.Guy@there.com')
-        //window.open('im:rcrosado@gmail.com')
-        //window.open('gtalk:chat?jid=ml.rosado@gmail.com')
     });
 }
 
